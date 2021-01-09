@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feed Bananaman</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload="hideAndShow">
+    <main id="container">
+      <header id="header">
+        <h2>Feed Bananaman</h2>
+        <div id="score">
+          <div id="player">
+            <h3 style="color: rgba(138, 3, 3, 0.924)">
+              Player: <span id="player-score">0</span>
+            </h3>
+          </div>
+          <div>
+            <h3>Remaining tries: <span id="try-number">5</span></h3>
+          </div>
+          <div id="computer">
+            <h3 style="color: rgba(1, 1, 209, 0.931)">
+              Computer: <span id="computer-score">0</span>
+            </h3>
+          </div>
+          <h3>Winner:<span id="winner"></span></h3>
+        </div>
+      </header>
+      <section>
+        <div id="game-section">
+          <div id="myBtn"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p style="text-align: center; padding-top: 5px">&copy; Marta</p>
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

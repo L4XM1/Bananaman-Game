@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  background-color: rgb(27, 117, 62);
+  background-image: linear-gradient(
+    to right,
+    rgba(10, 110, 10, 0.781),
+    rgba(236, 236, 29, 0.712)
+  );
+}
+
+#header {
+  background: transparent;
+  width: 55%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(2, 7, 77);
+  text-shadow: 3px 2px rgb(156, 156, 156);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+#score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+#game-section {
+  background-image: url(images/image.jpg);
+  height: 790px;
+  width: 55%;
+  margin: 10px auto auto auto;
+  border-radius: 30px;
+  position: relative;
+}
+
+#myBtn {
+  height: 140px;
+  width: 100px;
+  border: none;
+  background-image: url(./images/bananica.png);
+  position: absolute;
+}
