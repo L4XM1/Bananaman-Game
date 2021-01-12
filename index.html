@@ -5,26 +5,23 @@
     <title>Feed Bananaman</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body onload="hideAndShow">
     <main id="container">
       <header id="header">
         <h2>Feed Bananaman</h2>
-        <div id="score">
-          <div id="player">
-            <h3 style="color: rgba(138, 3, 3, 0.924)">
+        <div id="score" style="display: flex">
+          <div class="score-wrapper">
+            <h3 id="player" style="color: rgb(180, 3, 3)">
               Player: <span id="player-score">0</span>
             </h3>
-          </div>
-          <div>
             <h3>Remaining tries: <span id="try-number">5</span></h3>
           </div>
-          <div id="computer">
-            <h3 style="color: rgba(1, 1, 209, 0.931)">
+          <div class="score-wrapper">
+            <h3 id="computer" style="color: rgba(1, 1, 209, 0.931)">
               Computer: <span id="computer-score">0</span>
             </h3>
+            <h3>Winner:<span id="winner"></span></h3>
           </div>
-          <h3>Winner:<span id="winner"></span></h3>
         </div>
       </header>
       <section>
